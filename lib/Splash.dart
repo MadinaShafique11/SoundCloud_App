@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:soundcloud/firstpage.dart';
+import 'package:soundcloud/registration.dart';
 
 class splash extends StatefulWidget {
   const splash({super.key});
@@ -18,7 +19,7 @@ class _splashState extends State<splash> {
   _navigatetohome() async {
     await Future.delayed(Duration(milliseconds: 5000), () {});
     Navigator.pushReplacement(context,
-        MaterialPageRoute(builder: (context) => FirstPage(title: 'Home')));
+        MaterialPageRoute(builder: (context) => Registertion(title: 'Home')));
   }
 
   @override

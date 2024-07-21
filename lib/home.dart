@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 import 'package:soundcloud/likesong.dart';
+import 'package:soundcloud/model/songs.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -355,11 +356,11 @@ class Songtile extends StatelessWidget {
 }
 
 //model for song
-class songs {
-  final String songname;
-  final String singer;
-  final String imagepath;
-  //construstor
-  songs(
-      {required this.songname, required this.singer, required this.imagepath});
-}
+// class songs {
+//   final String songname;
+//   final String singer;
+//   final String imagepath;
+//   //construstor
+//   songs(
+//       {required this.songname, required this.singer, required this.imagepath});
+// }

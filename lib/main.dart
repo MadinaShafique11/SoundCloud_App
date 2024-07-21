@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       create: (context) => lovesong(),
       builder: (context, child) => const MaterialApp(
           //title: 'Sound cloud',
-          debugShowCheckedModeBanner: true,
+          debugShowCheckedModeBanner: false,
           home: splash()),
     );
 

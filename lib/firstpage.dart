@@ -23,7 +23,7 @@ class FirstPage extends StatefulWidget {
 
 class _MyHomePageState extends State<FirstPage> {
   var _myIndex = 0;
-  List<Widget> _pages = const [
+  final List<Widget> _pages = const [
     Home(),
     Feeds(),
     Search(),
@@ -93,8 +93,6 @@ class _MyHomePageState extends State<FirstPage> {
           floatingActionButton: Container(
             height: 70,
             width: 385,
-            //padding: EdgeInsets.all(5),
-            //margin: EdgeInsets.all(5),
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(80)),
             ),
